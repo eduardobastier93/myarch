@@ -3,7 +3,7 @@
 
 - Preparing the SERVER
 
-`git clone https://github.com/mamutal91/myarch`
+`git clone https://github.com/eduardobastier93/myarch`
 
 - Run
 

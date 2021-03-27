@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-USER=mamutal91
-HOST=odin
+USER=eduardobastier93
+HOST=archlinux
 
 echo "#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*"
 echo "Starting system configuration..."
@@ -52,7 +52,7 @@ useradd -m -G wheel -s /bin/bash $USER
 mkdir -p /home/$USER
 
 if [[ $USER = "mamutal91" ]]; then
-  git clone https://github.com/mamutal91/dotfiles /home/$USER/.dotfiles
+  git clone https://github.com/eduardobastier93/dotfiles /home/$USER/.dotfiles
 fi
 
 echo "Set locale, zone and keymap console"
